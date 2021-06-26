@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.function.BooleanSupplier;
 
 public class conversorTDD {
-	
 	static Scanner ler = new Scanner(System.in);
 	
 	int valor = 0;
@@ -36,8 +35,7 @@ public class conversorTDD {
 	 resul = (int) (valor/500);
 		valor = valor % 500;
 		if(resul == 1) {
-			romano = romano + "D";		
-}	
+			romano = romano + "D";}	
 		resul = (int) (valor/100);
 		valor = valor % 100;
 		
@@ -181,11 +179,7 @@ public class conversorTDD {
 			case 'M':{
 				resul = resul + 1000;
 				break;
-			}
-		
-	}
-}
-	
+			}}}
 	return resul;
 	}
 }
